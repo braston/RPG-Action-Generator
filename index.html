@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Generator</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h1 class="grid-item">Welcome to the RPG Action Generator</h1>
+
+
+
+    <div class="grid-item">
+        <div class="label">
+            Attack Type:
+        </div>
+        <div class="box-item">
+            Melee:
+            <input type="radio" name="type" value="melee">
+        </div>
+        <div class="box-item">
+            Ranged:<input type="radio" name="type" value="ranged">
+        </div>
+        <div class="box-item">
+            Spell:<input type="radio" name="type" value="spell">
+        </div>
+    </div>
+
+    <div class="grid-item"> 
+        <div class="label">
+            Attack Result:
+        </div>
+        <div class="box-item">
+            Hit:<input type="radio" name="result" value="hit">
+        </div>
+        <div class="box-item">
+        Miss:<input type="radio" name="result" value="miss">
+        </div>
+    </div>
+
+    <button class="grid-item" id="generate">Generate!</button>
+    <h2 class="grid-item" id="resultText">Configure Above and Hit Generate!</h2>
+    
+</div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

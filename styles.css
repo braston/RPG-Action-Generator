@@ -1,0 +1,70 @@
+body{
+    background: url("./background2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Girassol', cursive;
+}
+
+h1{
+    color: rgb(41, 38, 41);
+    font-size: 1rem;
+}
+
+button{
+    font-size: 1rem;
+    font-family: 'Girassol', cursive;
+}
+
+button:hover{
+    background-color: rgba(204, 226, 5, 0.75);
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.grid-item{
+    background-color: rgba(228, 233, 186, 0.75);
+    margin: 0.25rem;
+    padding: 0.1rem;
+    width:85%;
+    text-align: center;
+    border-radius: 2.5%;
+
+    display:flex;
+    justify-content: center;
+
+}
+
+.box-item{
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 5%;
+}
+
+.box-item:hover{
+    background-color: rgba(204, 226, 5, 0.75);
+    
+}
+
+.label{
+    margin: 0.25rem;
+    padding: 0.25rem;
+    align-self: flex-start;
+    margin-left:0;
+}
+
+/* Media Query- USE THESE PROPERTIES WHEN MAX WIDTH = 450 PX */
+@media only screen and (max-width:450px){
+
+    .container{
+        font-size: 0.6em;
+        padding: 0;
+    }
+}
