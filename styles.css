@@ -70,11 +70,10 @@ button:hover{
 }
 
 /* Media Query- USE THESE PROPERTIES WHEN MAX WIDTH = 600 PX */
-@media only screen and (max-width: 800px){
-     
+@media only screen and (max-width: 800px){  
     .grid-item {
-        background-color: rgba(228, 233, 186, 0.75);
-        font-size: 1rem;
+        padding:0.1rem;
+        margin:0.25rem;
+        font-size: 1.25rem;
     }
-    
     }
