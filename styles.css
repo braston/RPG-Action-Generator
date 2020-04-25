@@ -9,11 +9,11 @@ body{
 
 h1{
     color: rgb(41, 38, 41);
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 button{
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Girassol', cursive;
 }
 
@@ -27,6 +27,7 @@ button:hover{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
+    font-size: 2rem;
 }
 
 .grid-item{
@@ -58,13 +59,4 @@ button:hover{
     padding: 0.25rem;
     align-self: flex-start;
     margin-left:0;
-}
-
-/* Media Query- USE THESE PROPERTIES WHEN MAX WIDTH = 450 PX */
-@media only screen and (max-width:450px){
-
-    .container{
-        font-size: 0.6em;
-        padding: 0;
-    }
 }
